@@ -1,0 +1,387 @@
+body {
+    margin: 0;
+    display: block;
+
+}
+*{
+    font-family: "Montserrat",
+    -apple-system, BlinkMacSystemFont,
+    "Segoe UI", Roboto,
+    "Helvetica Neue", Arial,
+    "Noto Sans", sans-serif,
+    "Apple Color Emoji",
+    "Segoe UI Emoji",
+    "Segoe UI Symbol",
+    "Noto Color Emoji";
+}
+
+@font-face {
+    font-family: pepe;
+    src: url('../fonts/free-fa-solid-900.woff2');
+}
+/*---------------------------------------------------------------------------------*/
+.container {
+    display: grid;
+    grid-template-rows: repeat(6, 0.01fr);
+}
+.nav {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    background-color: #2c3e50;
+}
+.nav-title {
+    align-self: center;
+    justify-self: center;
+}
+.nav-title h1 {
+    text-decoration: none;
+    color: white;
+    cursor: pointer;
+}
+.div-contact {
+    align-self: center;
+    justify-self: center;
+}
+.div-contact ul li {
+    list-style: none;
+    justify-self: center;
+    display: inline-block;
+}
+.div-contact ul {
+    padding: 0;
+}
+.div-contact a {
+    margin-left: 20px;
+    font-family: "Arial Black", serif;
+    cursor: pointer;
+    color: white;
+    text-decoration: none;
+}
+.div-contact a:hover{
+    color: #1abc9c;
+}
+/*---------------------------------------------------------------------------------*/
+
+.section-user {
+    display: grid;
+    background-color: #1abc9c;
+    grid-template-rows: repeat(4,0.12fr);
+    justify-items: center;
+}
+.user {
+    width: 300px;
+    height: 300px;
+    margin-top: 80px;
+}
+.section-user h1 {
+    font-size: 60px;
+    color: white;
+}
+.section-user span {
+    margin-top: 50px;
+    margin-bottom: 50px;
+    font-size: 30px;
+    color: white;
+}
+
+/*---------------------------------------------------------------------------------*/
+
+.div-portafolio {
+    display: grid;
+    grid-template-rows: repeat(2, 0.7fr);
+
+}
+.div-grid-1 {
+    display: grid;
+    grid-template-rows: 100px 100px;
+}
+.div-grid-1 img {
+    width: 40px;
+    height: 40px;
+    justify-self: center;
+    align-self: center;
+    margin-top: 90px;
+}
+.div-grid-1 h1 {
+    margin-top: 90px;
+    justify-self: center;
+    color: #2c3e50;
+    font-size: 50px;
+}
+
+.div-grid-2 {
+    display: grid;
+    grid-template-rows: repeat(2, 250px);
+    grid-template-columns: repeat(3, 15fr);
+    justify-self: center;
+    gap: 20px;
+}
+.div-grid-2 img{
+    width: 350px;
+    height: 250px;
+    border-radius: 20px;
+    cursor : pointer;
+}
+.cont-img .div-font{
+    background-color: #1abc9c;
+    width: 350px;
+    height: 250px;
+    justify-self: center;
+    align-self: center;
+    text-align: center;
+    border-radius: 20px;
+}
+.div-font{
+    width: 350px;
+    height: 250px;
+    cursor: pointer;
+    position: relative;
+    bottom: 164px;
+}
+.div-font:hover{
+    opacity: 0;
+}
+.cont-img {
+    text-align: center;
+    background-color: #1abc9c;
+    width: 350px;
+    height: 250px;
+    border-radius: 20px;
+}
+.cont-img i {
+    margin-top: 30%;
+    font-size: 60px;
+}
+
+/*---------------------------------------------------------------------------------*/
+
+.div-about {
+    display: grid;
+    grid-template-rows: repeat(3, 0.5fr);
+    grid-template-columns: repeat(2, 1fr);
+    background-color: #1abc9c;
+}
+.div-about h1{
+    grid-column: 1/3;
+    justify-self: center;
+    margin-top: 120px;
+    font-size: 50px;
+    color: white;
+}
+.div-about img{
+    grid-column: 1/3;
+    justify-self: center;
+}
+.p1{
+    justify-self: end;
+    margin-right: 40px;
+    text-align: left;
+    color: white;
+    font-size: 22px;
+}
+.p2{
+    justify-self: start;
+    margin-left: 40px;
+    color: white;
+    font-size: 18px;
+}
+.div-about button{
+    grid-column: 1/3;
+    justify-self: center;
+    background-color: transparent;
+    cursor: pointer;
+    border-radius: 10px;
+    border: 3px solid white;
+    font-size: 20px;
+    width: 240px;
+    height: 60px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    text-align: right;
+    padding-right: 20px;
+    color: white;
+}
+.div-about button:hover{
+    background-color: white;
+    color: black;
+}
+
+.div-about img{
+    position: relative;
+    bottom: 115px;
+    right: 90px;
+    width: 20px;
+    height: 20px;
+}
+/*---------------------------------------------------------------------------------*/
+
+.div-contact-me {
+    display: grid;
+    grid-template-rows: repeat(3,0.5fr);
+
+}
+.div-contact-me img {
+    width: 40px;
+    height: 40px;
+    justify-self: center;
+    margin-bottom: 30px;
+    align-self: center;
+
+}
+.div-contact-me h1 {
+    margin-top: 150px;
+    font-size: 50px;
+    color: #2c3e50;
+    justify-self: center;
+}
+
+.form {
+    padding-left: 30%;
+    padding-right: 30%;
+
+}
+.container-form {
+    display: grid;
+    grid-template-rows: repeat(4, 0.5fr);
+    row-gap: 20px;
+}
+.input-form input {
+    height: 40px;
+    width: 100%;
+    border: none;
+    border-bottom: 1px solid #b3b1b1;
+    outline: 0;
+    transition: border-color 0.2s;
+    font-size: 20px;
+
+}
+.input-form input:focus + .form_label, .input-form input:not(:placeholder-shown) + .form_label{
+    transform: translateY(-20px) scale(1);
+    transform-origin: left top;
+    color: #2c3e50;
+}
+.input1 textarea {
+    width: 100%;
+    height: 60px;
+    border: none;
+    border-bottom: 1px solid #b3b1b1;
+    outline: 0;
+    transition: border-color 0.2s;
+    font-size: 20px;
+ }
+.input1 textarea:focus + .txt-1, .input1 textarea:not(:placeholder-shown) + .txt-1  {
+    top: -80px;
+    transition: border-color 0.2s;
+}
+.message{
+    position: relative;
+}
+.txt-1 {
+    cursor: pointer;
+    position: relative;
+    color: #b3b1b1;
+    top: -65px;
+    left: 5px;
+    transform: translateY(100px);
+    transition: border-color 0.2s;
+}
+.input1 {
+    position: relative;
+}
+.input-form {
+    position: relative;
+}
+.input-form label {
+    cursor: pointer;
+    position: absolute;
+    color: #b3b1b1;
+    top: 0;
+    left: 5px;
+    transform: translateY(10px);
+    transition: transform .5s, color .3s;
+}
+.btn-send {
+    width: 170px;
+    background-color: #6bd4bf;
+    border: none;
+    height: 65px;
+    border-radius: 15px;
+    font-size: 25px;
+    font-family: "Arial Black", serif;
+    color: white;
+    cursor: pointer;
+}
+.btn-send:hover {
+    background-color: #efefef;
+    color: black;
+}
+/*---------------------------------------------------------------------------------*/
+
+.div-social {
+    background-color: #2c3e50;
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+}
+.redes-sociales i {
+    margin: 15px 0 100px 15px;
+    font-size: 60px;
+    cursor : pointer;
+}
+.redes-sociales i:hover {
+    color: white;
+}
+.redes-sociales {
+    justify-self: center;
+}
+.redes-sociales h2 {
+    margin-top: 80px;
+    color: white;
+    padding-left: 30px;
+    font-size: 27px;
+}
+.div-address {
+    justify-self: center;
+}
+.div-address h2 {
+    margin-top: 80px;
+    color: white;
+}
+.div-address span {
+    color: white;
+    font-size: 25px;
+}
+.div-address .div-con {
+    text-align: center;
+}
+.dic-freelancer {
+    justify-self: center;
+}
+.dic-freelancer h2{
+    margin-top: 80px;
+    color: white;
+}
+.dic-freelancer p{
+    color: white;
+    font-size: 25px;
+}
+.dic-freelancer .cont2 {
+    text-align: center;
+}
+.dic-freelancer a{
+    color: #1abc9c;
+    cursor:pointer;
+}
+.footer {
+    display: flex;
+    justify-content: center;
+    height: 100px;
+    background-color: #1a252f;
+
+
+}
+.footer span {
+    padding-top: 40px;
+    color: white;
+}
+
+

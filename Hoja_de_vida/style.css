@@ -1,0 +1,65 @@
+img {
+    width: 30px;
+    height: 30px;
+    margin: 10px;
+}
+
+hr {
+    height: 3px;
+    background-color: black;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+span {
+    position: relative;
+    right: 0;
+    color: white;
+    font-family: Arial Black,serif;
+    margin-bottom: 50px;
+}
+
+h2, h3, h4, span {
+    font-family: arial, helvetica, sans-serif;
+}
+
+li {
+    font-size: 14px;
+    font-family: arial, serif;
+    margin-top: 5px;
+}
+.li-h {
+    font-family: Arial Black, serif;
+}
+
+.div-img-1 span {
+    position: relative;
+    bottom: 20px;
+    color: black;
+}
+
+.div-column-isq {
+    box-shadow: -25px 2px 60px black;
+    text-align: center;
+    width: 40%;
+    background-color: #014ba0;
+    border-top-left-radius: 50px 50px;
+    border-bottom-left-radius: 50px 50px;"
+}
+.div-colum-right {
+    background-color: white;
+    box-shadow: 20px -15px 50px black;
+    width: 50%;
+    text-align: center;
+    border-top-right-radius: 50px 50px;
+    border-bottom-right-radius: 50px 50px;"
+}
+.div-date {
+    text-align:left
+}
+.div-laboral {
+    margin-left: 20px;
+    text-align: left;
+}
+.div-name {
+    margin: 70px 10px 50px ;
+}
